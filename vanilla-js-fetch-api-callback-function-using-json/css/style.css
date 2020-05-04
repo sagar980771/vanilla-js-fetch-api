@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+}
+.main-div{
+    background-image: url('../images/images.jpg');
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    color: #1b4ec191;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px;
+    font-size: 50px;
+
+}
+p{
+    color: #c11b1b;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px;
+    font-size: 18px;
+}
+ul li {
+    list-style: none;
+}
+
+#centerdiv {
+    justify-content: space-around;
+    display: flex;
+    
+}
+#centerdiv div{
+    text-align: center;
+}
